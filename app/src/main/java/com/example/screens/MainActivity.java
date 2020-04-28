@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this,Main2Activity.class);
             intent.putExtra("Name","Sam");
             startActivity(intent);
-
-
         }
     });
 
